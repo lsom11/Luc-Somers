@@ -7,10 +7,14 @@ import ContactForm from './ContactForm'
 export const Contact = () => (
 	<Wrapper as={Container} id="contact">
 		<Details>
+			<h2>Contact Me</h2>
 			<ContactForm />
 		</Details>
 		<Thumbnail>
-			<img src={contact} alt="I’m John and I’m a Backend & Devops engineer!" />
+			<img
+				src={contact}
+				alt="I’m Luc and I’m a Software Engineer & aspiring Data Scientist!"
+			/>
 		</Thumbnail>
 	</Wrapper>
 )

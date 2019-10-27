@@ -1,26 +1,20 @@
 [
   {
-    "id": 0,
-    "name": "Telegram",
-    "link": "https://t.me/smakosh",
-    "icon": "/icons/telegram.svg"
-  },
-  {
     "id": 1,
     "name": "Github",
-    "link": "https://github.com/smakosh",
+    "link": "https://github.com/lsom11",
     "icon": "/icons/github.svg"
   },
   {
     "id": 2,
-    "name": "StackOverflow",
-    "link": "https://stackoverflow.com/users/story/7396786",
-    "icon": "/icons/stackoverflow.svg"
+    "name": "LinkedIn",
+    "link": "https://www.linkedin.com/in/luc-somers/",
+    "icon": "/icons/linkedin.svg"
   },
   {
     "id": 3,
     "name": "Twitter",
-    "link": "https://twitter.com/smakosh",
+    "link": "https://twitter.com/lsom11",
     "icon": "/icons/twitter.svg"
   }
 ]

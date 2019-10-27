@@ -15,16 +15,17 @@ export const Projects = () => {
 	} = useStaticQuery(graphql`
 		{
 			github {
-				repositoryOwner(login: "smakosh") {
+				repositoryOwner(login: "lsom11") {
 					repositories(
 						first: 8
-						orderBy: { field: STARGAZERS, direction: DESC }
+						orderBy: { field: UPDATED_AT, direction: DESC }
 					) {
 						edges {
 							node {
 								id
 								name
 								url
+								pushedAt
 								description
 								stargazers {
 									totalCount

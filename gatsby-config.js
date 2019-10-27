@@ -12,6 +12,12 @@ module.exports = {
 		author: config.author,
 	},
 	plugins: [
+		{
+			resolve: `gatsby-source-medium`,
+			options: {
+				username: `smartive`,
+			},
+		},
 		'gatsby-plugin-react-helmet',
 		'gatsby-plugin-styled-components',
 		/* {
