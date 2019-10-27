@@ -14,7 +14,7 @@ export const Skills = () => (
 				/>
 			</Thumbnail>
 			<Details>
-				<h1>Hi There!</h1>
+				<h1>About me</h1>
 				<p>
 					I'm a Canadian Software Engineer working in the industry for just over
 					two years. I work mostly with Javascript (React, Node), but lately

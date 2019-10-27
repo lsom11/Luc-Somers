@@ -43,11 +43,11 @@
   "scripts": {
     "build": "gatsby build",
     "start": "gatsby develop -o",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "format": "prettier --write \"src/**/*.js\"",
     "reset": "rm -rf .cache/ public/",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
-    "fix-medium-plugin": "sed -i' ' 's/\\/latest//g' ./node_modules/gatsby-source-medium/gatsby-node.js"
+    "fix-medium-plugin": "sed -i' ' 's/\\/latest//g' ./node_modules/gatsby-source-medium/gatsby-node.js",
+    "deploy": "yarn run build && yarn run fix-medium-plugin && node ./scripts/deploy-github"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
